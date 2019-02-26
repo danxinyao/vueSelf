@@ -5,7 +5,7 @@
     <div class="content">
       <div class="dan">我是视频1</div>
       <div class="vied0">
-        <video-player  class="video-player-box"
+        <video-player  class="video-player vjs-custom-skin"
                  ref="videoPlayer"
                  :options="playerOptions"
                  :playsinline="true"

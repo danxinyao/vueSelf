@@ -18,6 +18,7 @@ Vue.use(VueRouter)
 Vue.use(Component)
 Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)
+
 // 路由实例
 const router = new VueRouter({
     mode: 'history', // hash: 使用 URL hash 值来作路由。支持所有浏览器，包括不支持 HTML5 History Api 的浏览器。history: 依赖 HTML5 History API 和服务器配置。

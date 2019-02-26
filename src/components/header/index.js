@@ -20,6 +20,9 @@ export default {
 				}, {
 					path: '/shopVuex',
 					name: '商城-Vuex'
+				}, {
+					path: '/dplayer',
+					name: 'Dplayer'
 				},
 			]
 		}

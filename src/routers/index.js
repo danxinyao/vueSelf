@@ -6,6 +6,8 @@ import ShopVuex from 'views/shopVuex/index.vue'
 import Detail from 'views/detail/index.vue'
 import Echarts from 'views/echarts/index.vue'
 import Swiper from 'views/swiper/index.vue'
+import Dplayer from 'views/dplayer/index.vue'
+
 
 var routes = [
     {
@@ -42,6 +44,11 @@ var routes = [
       path: '/swiper',
       name: 'swiper',
       component: Swiper
+    },
+    {
+      path: '/dplayer',
+      name: 'Dplayer',
+      component: Dplayer
     },
 ]
 export default routes
